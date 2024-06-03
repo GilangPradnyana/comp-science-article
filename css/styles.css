@@ -6,7 +6,7 @@ body {
 }
 /* header container */
 header {
-    padding:10px 0px 150px 0px;
+    padding: 10px 0px 150px 0px;
     box-sizing: border-box;
 }
 .header-navbar {
@@ -14,8 +14,10 @@ header {
     border-bottom: 1px solid grey;    
     display: flex;
     position: fixed;
+    top: 0;
     left: 0;
     right: 0;
+    background-color: #F3F7EC;
 }
 .header-navbar h1 {
     font-size: 40px;
@@ -83,3 +85,96 @@ header {
 .header-tittle-nav ul li a:hover {
    color: #F94C10;
 }
+
+/* article */
+.container-article {
+    width: 1000px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.container-article .hero img{
+   width: 1000px;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+/* article-paragraph */
+.container-article article {
+    border-left: 1px solid rgba(0,0,0,.5);
+    border-right: 1px solid rgba(0,0,0,.5);
+    border-bottom: 1px solid rgba(0,0,0,.5);
+    padding: 30px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.container-article article h2 {
+    font-size: 25px;
+    color: #31363F;
+    font-family: 'Raleway';
+    font-weight: 500;
+    padding-bottom: 20px;
+    text-align: left;
+}
+.container-article p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #31363F;
+    font-family: 'Montserrat';
+    text-align: justify;
+}
+
+/* card */
+.header-dev {
+    width: 400px;  
+    margin: 100px auto;
+    font-size: 50px;
+    color: #31363F;
+
+}
+.container-dev {
+    width: 1000px;
+    margin:10px auto;
+    display: flex;
+    justify-content: center;
+}
+.container-dev .card {
+    width: 250px;
+    height: 280px;
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color: #31363F;
+    border-left: #F3F7EC 2px solid;
+    border-right: #F3F7EC 2px solid;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.container-dev .card .card-hero img{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.container-dev .card .card-text p {
+    text-align: center;
+    padding: 5px;
+    font-size: 500;
+    color: #F3F7EC;
+}
+.container-dev #card-center {
+    transform: scale(1.10);
+    -webkit-transform: scale(1.10);
+    -moz-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    -o-transform: scale(1.10);
+}
+
